@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inside 3GPP: How Telecom Standards Become Intellectual Property | Ajay Sohal</title>
+  <meta name="description" content="How 3GPP technical proposals become global standards, and how standard-essential patents grow out of them. By Ajay Sohal.">
+  <meta name="author" content="Ajay Sohal">
+  <link rel="canonical" href="https://ajaysohal.com/articles/3gpp-standards-intellectual-property.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Ajay Sohal">
+  <meta property="og:title" content="Inside 3GPP: How Telecom Standards Become Intellectual Property | Ajay Sohal">
+  <meta property="og:description" content="How 3GPP technical proposals become global standards, and how standard-essential patents grow out of them. By Ajay Sohal.">
+  <meta property="og:url" content="https://ajaysohal.com/articles/3gpp-standards-intellectual-property.html">
+  <meta property="og:image" content="https://ajaysohal.com/assets/images/og-image.jpg">
+  <meta property="og:image:alt" content="Ajay Sohal">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#fbf9f6">
+
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="Ajay Sohal, home">
+      <span class="brand__mono" aria-hidden="true">AS<span>.</span></span>
+      <span class="brand__text"><b>AJAY SOHAL</b><small>Patent Analyst</small></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#expertise">Expertise</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#book">Book</a></li>
+        <li><a href="../articles/index.html" aria-current="page">Writing</a></li>
+        <li><a href="../index.html#engineering">Engineering</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-btn" type="button" data-menu-open aria-expanded="false" aria-controls="site-menu">
+      Menu
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </header>
+
+  <div class="menu" id="site-menu" aria-hidden="true">
+    <div class="site-header">
+      <a class="brand" href="../index.html" aria-label="Ajay Sohal, home">
+      <span class="brand__mono" aria-hidden="true">AS<span>.</span></span>
+      <span class="brand__text"><b>AJAY SOHAL</b><small>Patent Analyst</small></span>
+    </a>
+      <button class="menu-btn" type="button" data-menu-close>
+        Close
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <nav class="menu__nav" aria-label="Main (mobile)">
+      <ul class="menu__list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#expertise">Expertise</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#book">Book</a></li>
+        <li><a href="../articles/index.html">Writing</a></li>
+        <li><a href="../index.html#engineering">Engineering</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main id="main" class="page page--narrow">
+    <article>
+      <header>
+        <a class="back" href="index.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg>
+          All articles</a>
+        <p class="eyebrow eyebrow--link">Telecom</p>
+        <h1 class="page-title">Inside 3GPP: How Telecom Standards Become Intellectual Property</h1>
+        <p class="dek">Every 3GPP release is a negotiated technical consensus between hundreds of companies. Embedded within those specifications are thousands of patent claims, each representing a moment where an engineer’s insight became a legal right.</p>
+        <!-- AJ: add the publish date here, e.g. <time datetime="2026-10-31">31 October 2026</time> · -->
+        <p class="byline"><b>Ajay Sohal</b> · 3 min read</p>
+      </header>
+
+      <div class="article">
+        <hr class="rule">
+        <p>3GPP, the Third Generation Partnership Project, is easy to misunderstand. It sounds like a regulatory body, but it isn’t. It sounds like a consortium of researchers, but that’s not quite right either. It is, in the most accurate description, a sustained technical negotiation between the companies that build the world’s wireless infrastructure, mediated by a formal process for converting engineering proposals into global standards.</p>
+        <p>The output of this process, the Technical Specifications that define LTE, 5G NR, and their successors, is what gets implemented in every smartphone, every base station, every IoT module deployed at scale. And embedded within those specifications, at every level from the physical layer to the core network, are the fingerprints of the companies whose engineers wrote the proposals that shaped them.</p>
+        <blockquote><p>Standards are not discovered. They are negotiated. And negotiation leaves traces: in working group minutes, in technical proposals, and eventually in patent claims.</p></blockquote>
+
+        <h2>How a technical proposal becomes a standard</h2>
+        <p>The process works roughly like this: a company’s engineers identify a technical problem (say, how to efficiently allocate radio resources in a multi-user MIMO scenario) and develop a solution. They submit a technical proposal to the relevant 3GPP working group (RAN1, RAN2, SA2, and so on). The working group discusses, modifies, debates alternatives, and eventually either adopts the proposal, merges it with others, or rejects it. What gets adopted becomes part of the specification.</p>
+        <p>The company that submitted the winning proposal has, at this point, done something strategically important: it has contributed a technical solution that the entire industry is now obligated to implement. And if it has filed a patent on that solution, which most large contributors do systematically, it now holds a Standard Essential Patent: a patent that cannot be designed around, because the standard itself mandates the behaviour it covers.</p>
+
+        <h2>The SEP landscape</h2>
+        <p>The SEP ecosystem in telecom is enormous. Billions of dollars in licensing revenue flow annually through declarations of essentiality, FRAND (Fair, Reasonable, and Non-Discriminatory) licensing negotiations, and, when those negotiations fail, litigation. The companies with the largest declared SEP portfolios, including Huawei, Qualcomm, Ericsson, Nokia and Samsung, have spent decades building positions through active participation in standards development.</p>
+        <p>Working with SEPs requires navigating two distinct technical layers simultaneously. The first is the standard itself: what does the specification say, and what technical behaviour does it mandate? The second is the patent: what does the claim cover, and does the mandated behaviour fall within that coverage? Both layers require genuine technical fluency: one in telecommunications engineering, one in patent claim construction.</p>
+
+        <h2>Why this matters beyond telecom</h2>
+        <p>The 3GPP model, where standards development and IP accumulation happen in parallel, is increasingly the norm in technology, not the exception. Wi-Fi, Bluetooth, video compression (HEVC, AV1, VVC), USB, display standards: all of these involve standards bodies where companies simultaneously shape technical outcomes and build IP portfolios around the decisions they influence.</p>
+        <p>Understanding how this works is not just useful for telecom analysts. It’s a mental model for understanding how technical power consolidates in any industry where interoperability standards matter, which, in the connected world, is nearly all of them.</p>
+      </div>
+
+      <aside class="article-end">
+        <p>Thinking about something similar, or see it differently? I’d like to hear it.</p>
+        <div class="actions">
+          <a class="btn" href="mailto:ajaesohal@gmail.com?subject=Inside%203GPP%3A%20How%20Telecom%20Standards%20Become%20Intellectual%20Property">Email me about this</a>
+          <a class="link-arrow" href="index.html">More articles</a>
+        </div>
+      </aside>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="../index.html" aria-label="Ajay Sohal, home"><span class="brand__mono" aria-hidden="true">AS<span>.</span></span></a>
+    <p>© 2026 Ajay Sohal</p>
+    <a href="#main">Back to top ↑</a>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>

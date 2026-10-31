@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Why Engineering Knowledge Matters in Intellectual Property | Ajay Sohal</title>
+  <meta name="description" content="Why patent claim analysis needs real engineering depth, and where surface-level matching goes wrong. By Ajay Sohal.">
+  <meta name="author" content="Ajay Sohal">
+  <link rel="canonical" href="https://ajaysohal.com/articles/engineering-knowledge-intellectual-property.html">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Ajay Sohal">
+  <meta property="og:title" content="Why Engineering Knowledge Matters in Intellectual Property | Ajay Sohal">
+  <meta property="og:description" content="Why patent claim analysis needs real engineering depth, and where surface-level matching goes wrong. By Ajay Sohal.">
+  <meta property="og:url" content="https://ajaysohal.com/articles/engineering-knowledge-intellectual-property.html">
+  <meta property="og:image" content="https://ajaysohal.com/assets/images/og-image.jpg">
+  <meta property="og:image:alt" content="Ajay Sohal">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#fbf9f6">
+
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="Ajay Sohal, home">
+      <span class="brand__mono" aria-hidden="true">AS<span>.</span></span>
+      <span class="brand__text"><b>AJAY SOHAL</b><small>Patent Analyst</small></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#expertise">Expertise</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#book">Book</a></li>
+        <li><a href="../articles/index.html" aria-current="page">Writing</a></li>
+        <li><a href="../index.html#engineering">Engineering</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-btn" type="button" data-menu-open aria-expanded="false" aria-controls="site-menu">
+      Menu
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </header>
+
+  <div class="menu" id="site-menu" aria-hidden="true">
+    <div class="site-header">
+      <a class="brand" href="../index.html" aria-label="Ajay Sohal, home">
+      <span class="brand__mono" aria-hidden="true">AS<span>.</span></span>
+      <span class="brand__text"><b>AJAY SOHAL</b><small>Patent Analyst</small></span>
+    </a>
+      <button class="menu-btn" type="button" data-menu-close>
+        Close
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <nav class="menu__nav" aria-label="Main (mobile)">
+      <ul class="menu__list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../index.html#expertise">Expertise</a></li>
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#book">Book</a></li>
+        <li><a href="../articles/index.html">Writing</a></li>
+        <li><a href="../index.html#engineering">Engineering</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main id="main" class="page page--narrow">
+    <article>
+      <header>
+        <a class="back" href="index.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 12H4M10 6l-6 6 6 6"/></svg>
+          All articles</a>
+        <p class="eyebrow eyebrow--link">Engineering × Law</p>
+        <h1 class="page-title">Why Engineering Knowledge Matters in Intellectual Property</h1>
+        <p class="dek">A claim that reads “a processor configured to…” can only be properly evaluated by someone who understands what a processor actually does at the instruction level. IP analysis without engineering depth is legal speculation.</p>
+        <!-- AJ: add the publish date here, e.g. <time datetime="2026-10-31">31 October 2026</time> · -->
+        <p class="byline"><b>Ajay Sohal</b> · 4 min read</p>
+      </header>
+
+      <div class="article">
+        <hr class="rule">
+        <p>There is a persistent fiction in intellectual property work that technical analysis is separable from legal analysis: that the engineering questions and the legal questions occupy different lanes, and that a skilled attorney can handle one without deep fluency in the other. In my experience, this is wrong, and the gap it creates has real consequences for the quality of IP work that gets done.</p>
+        <p>Patent claims are written in a specific language (formal, precise, laden with terms of art), but they are ultimately descriptions of technical systems. Every limitation in a claim corresponds to something a real device or process does in the physical world. Evaluating whether a product infringes a claim, or whether a prior art reference anticipates it, requires understanding what both the claim and the product are actually doing at a technical level.</p>
+        <blockquote><p>The question is never just “does this product have a processor?” It is “does this processor, in this context, perform this specific function in a way that satisfies this claim limitation?”</p></blockquote>
+
+        <h2>Where the gap shows up</h2>
+        <p>The failure mode I see most often is what I’d call literal surface matching: comparing the words in a claim to the words in a product spec, and treating a vocabulary overlap as evidence of infringement. This is not analysis; it is pattern matching. It misses the cases where identical language describes technically distinct operations, and it misses the cases where different language describes the same underlying mechanism.</p>
+        <p>Consider a claim covering a “neural network configured to classify input data based on learned feature representations.” A surface read might flag any product that uses machine learning for classification. But the relevant question is whether the specific architectural choices described in the claim (the feature hierarchy, the training methodology, the inference pathway) are present in the accused product. That question can only be answered by someone who understands how neural networks actually work.</p>
+
+        <h2>The claim construction problem</h2>
+        <p>Before any infringement or validity analysis, claim terms must be construed: their meaning must be defined in light of the specification, the prosecution history, and the relevant prior art. This is formally a legal exercise, but it is substantively a technical one. When a claim uses a term like “substantially orthogonal” or “operatively coupled” or “high frequency,” the correct construction of that term depends on what those concepts mean in the relevant engineering domain.</p>
+        <p>An attorney without a signal processing background construing “substantially orthogonal” will produce a different, and potentially incorrect, result than one who understands what orthogonality means in the context of antenna arrays or spreading codes. The legal framework is the same; the technical grounding changes the outcome.</p>
+
+        <h2>What this means for the work</h2>
+        <p>The best IP analysts I’ve worked alongside treat technical depth not as a nice-to-have but as a prerequisite. They read datasheets, study architecture diagrams, and understand the difference between a hardware implementation and a software approximation of the same function. When the claim says “dedicated hardware,” they know what that means and why it matters. When the product documentation is ambiguous, they know which technical questions to ask to resolve the ambiguity.</p>
+        <p>This is why engineering backgrounds, especially in electronics, signal processing, and systems architecture, translate unusually well into patent work. The mental models are directly applicable. The habit of tracing a signal through a system, or understanding a protocol stack from physical layer to application, is exactly the analytical disposition that good IP analysis requires.</p>
+      </div>
+
+      <aside class="article-end">
+        <p>Thinking about something similar, or see it differently? I’d like to hear it.</p>
+        <div class="actions">
+          <a class="btn" href="mailto:ajaesohal@gmail.com?subject=Why%20Engineering%20Knowledge%20Matters%20in%20Intellectual%20Property">Email me about this</a>
+          <a class="link-arrow" href="index.html">More articles</a>
+        </div>
+      </aside>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="../index.html" aria-label="Ajay Sohal, home"><span class="brand__mono" aria-hidden="true">AS<span>.</span></span></a>
+    <p>© 2026 Ajay Sohal</p>
+    <a href="#main">Back to top ↑</a>
+  </footer>
+
+  <script src="../js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ajay Sohal: patent analysis with an engineer’s eye</title>
+  <meta name="description" content="Ajay Sohal is a patent analyst who reads inventions the way an engineer would: infringement and claim charts, prior art, freedom to operate, and standard-essential patents across 3GPP, LTE and 5G NR.">
+  <meta name="author" content="Ajay Sohal">
+  <link rel="canonical" href="https://ajaysohal.com/">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Ajay Sohal">
+  <meta property="og:title" content="Ajay Sohal: patent analysis with an engineer’s eye">
+  <meta property="og:description" content="Patent analyst and co-author of 3GPP Through The Ages. Infringement, prior art, FTO and standard-essential patents, read the way an engineer would.">
+  <meta property="og:url" content="https://ajaysohal.com/">
+  <meta property="og:image" content="https://ajaysohal.com/assets/images/og-image.jpg">
+  <meta property="og:image:alt" content="Ajay Sohal">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#fbf9f6">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32.png">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= Header ================= -->
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Ajay Sohal, home">
+      <span class="brand__mono" aria-hidden="true">AS<span>.</span></span>
+      <span class="brand__text"><b>AJAY SOHAL</b><small>Patent Analyst</small></span>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#book">Book</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#engineering">Engineering</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-btn" type="button" data-menu-open aria-expanded="false" aria-controls="site-menu">
+      Menu
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </header>
+
+  <!-- ================= Mobile menu ================= -->
+  <div class="menu" id="site-menu" aria-hidden="true">
+    <div class="site-header">
+      <a class="brand" href="index.html" aria-label="Ajay Sohal, home">
+        <span class="brand__mono" aria-hidden="true">AS<span>.</span></span>
+        <span class="brand__text"><b>AJAY SOHAL</b><small>Patent Analyst</small></span>
+      </a>
+      <button class="menu-btn" type="button" data-menu-close>
+        Close
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+    </div>
+    <nav class="menu__nav" aria-label="Main (mobile)">
+      <ul class="menu__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#book">Book</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#engineering">Engineering</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main id="main">
+
+    <!-- ================= Hero ================= -->
+    <section class="hero" aria-labelledby="hero-title">
+      <svg class="curve curve--a" viewBox="0 0 800 400" aria-hidden="true"><path d="M0 360C160 180 360 40 800 20"/></svg>
+      <svg class="curve curve--b" viewBox="0 0 500 200" aria-hidden="true"><path d="M0 10C120 120 260 190 500 150"/></svg>
+
+      <div class="hero__text">
+        <p class="eyebrow">Patent analysis / Standards / Engineering</p>
+        <h1 class="hero__title" id="hero-title">Patents, read the way an engineer <span class="accent">would.</span></h1>
+        <p class="hero__lede">I explore ideas where technology, intellectual property, software and engineering overlap: reading how inventions actually work, building small things to understand them, and writing to make the hard parts feel simple.</p>
+        <div class="actions">
+          <a class="btn" href="#expertise">
+            Explore my work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+          </a>
+          <a class="link-arrow" href="#about">
+            About me
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__media">
+        <div class="sun" aria-hidden="true"></div>
+        <div class="arch">
+          <img src="assets/images/portrait.jpg" alt="Portrait of Ajay Sohal" width="1000" height="1000" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= What I do ================= -->
+    <div class="band band--sage">
+      <section class="section" aria-labelledby="do-title">
+        <div class="section__head">
+          <h2 class="eyebrow" id="do-title">What I do</h2>
+          <p class="section__tagline">Intellectual property, with an engineer’s eye.</p>
+        </div>
+        <ul class="pillars">
+          <li class="pillar">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 7.5l9 4.5 9-4.5L12 3z"/><path d="m3 12 9 4.5 9-4.5"/><path d="m3 16.5 9 4.5 9-4.5"/></svg>
+            <h3>Patent analysis</h3>
+            <p>Infringement and claim charts, prior art and validity, freedom to operate, and portfolio strategy.</p>
+          </li>
+          <li class="pillar">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="10" r="1.6"/><path d="M12 11.6V21M8.6 6.6a4.8 4.8 0 0 0 0 6.8M15.4 6.6a4.8 4.8 0 0 1 0 6.8M5.7 3.7a8.9 8.9 0 0 0 0 12.6M18.3 3.7a8.9 8.9 0 0 1 0 12.6"/></svg>
+            <h3>Standard-essential patents</h3>
+            <p>3GPP, LTE and 5G NR: reading the specification and the claim side by side.</p>
+          </li>
+          <li class="pillar">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="1.5"/><rect x="9.5" y="9.5" width="5" height="5"/><path d="M9 2.5V6M12 2.5V6M15 2.5V6M9 18v3.5M12 18v3.5M15 18v3.5M2.5 9H6M2.5 12H6M2.5 15H6M18 9h3.5M18 12h3.5M18 15h3.5"/></svg>
+            <h3>Engineering depth</h3>
+            <p>Signal processing, instrumentation and embedded systems: the toolkit behind the analysis.</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- ================= Expertise ================= -->
+    <section class="section" id="expertise" aria-labelledby="exp-title">
+      <div class="section__head" style="margin-bottom:20px">
+        <p class="eyebrow eyebrow--link">Expertise</p>
+      </div>
+      <h2 class="title" id="exp-title">The questions I spend my days <span class="accent">on.</span></h2>
+      <hr class="rule">
+      <ul class="questions">
+        <li class="question">
+          <p class="question__q">“Does this product actually practise this claim?”</p>
+          <p class="question__what">Infringement &amp; claim charts</p>
+          <p>Mapping claim language to how a device really behaves, down to its firmware and hardware when the documentation isn’t enough.</p>
+        </li>
+        <li class="question">
+          <p class="question__q">“Is this patent truly essential to the standard?”</p>
+          <p class="question__what">SEP &amp; 3GPP analysis</p>
+          <p>Reading 3GPP specifications and patent claims side by side, across LTE and 5G NR, to see whether one mandates what the other covers.</p>
+        </li>
+        <li class="question">
+          <p class="question__q">“Is there prior art that changes the picture?”</p>
+          <p class="question__what">Prior art &amp; validity</p>
+          <p>Finding what was known before, and reading it as an engineer would rather than matching keywords.</p>
+        </li>
+        <li class="question">
+          <p class="question__q">“Can this launch without stepping on someone’s patent?”</p>
+          <p class="question__what">Freedom to operate</p>
+          <p>Checking a product against live patents before it ships, so the risk is understood rather than discovered.</p>
+        </li>
+        <li class="question">
+          <p class="question__q">“Where is this company’s technology heading?”</p>
+          <p class="question__what">Portfolio intelligence</p>
+          <p>Reading patterns across filings, such as which claims cluster and which problems keep recurring, to see technical investment before the product appears.</p>
+        </li>
+        <li class="question question--note">
+          <p>More than 10,000 patents read and over 500 portfolios studied, across telecom, IoT, AR/VR and medical instrumentation.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ================= About ================= -->
+    <div class="band band--sage">
+      <section class="section chapter" id="about" aria-labelledby="about-title">
+        <p class="chapter__label eyebrow">About</p>
+        <div class="chapter__body">
+          <h2 class="title" id="about-title">An engineer who fell for patent <span class="accent">claims.</span></h2>
+          <hr class="rule">
+          <div class="prose">
+            <p class="lead">I follow curiosity. It started with my old Samsung smartphone: I took it apart and replaced its camera myself, and I’ve wanted to know what’s underneath things ever since.</p>
+            <p>That turned into a degree in Electronics &amp; Communication Engineering at Panjab University, and into instrumentation and signal processing at labs like CSIO, DRDO and Panjab University. There I learned to build the thing, measure it, and let the measurement correct the story I’d told myself. In 2021, PGIMER invited me to speak on using Python to analyse and visualise experimental data.</p>
+            <p>In 2023 I joined Copperpod IP and found that a patent claim isn’t dense legal text. It’s a precise technical description of how an invention behaves, and reading one well takes the same mind that could have built it. Today I work as a senior analyst on standard-essential patents and 3GPP, where the engineering background isn’t a detour; it’s the toolkit.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ================= Principles ================= -->
+    <section class="section chapter" id="principles" aria-labelledby="pr-title">
+      <p class="chapter__label eyebrow">How I think</p>
+      <div class="chapter__body">
+        <h2 class="title" id="pr-title">What the work keeps <span class="accent">teaching me.</span></h2>
+        <hr class="rule">
+        <ol class="lessons">
+          <li class="lesson">
+            <span class="lesson__num">i.</span>
+            <h3>Filings arrive before products do.</h3>
+            <p>Patents are technical disclosure that precedes commercialisation by years. A single patent rarely says much; the pattern across a portfolio does.</p>
+            <a class="link-arrow link-arrow--link" href="articles/patents-reveal-technology-trends.html">Read the article
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+          </li>
+          <li class="lesson">
+            <span class="lesson__num">ii.</span>
+            <h3>IP analysis without engineering depth is confident guessing.</h3>
+            <p>You can only judge “a processor configured to…” if you know what a processor really does at the instruction level. Matching words isn’t analysis; it’s pattern matching.</p>
+            <a class="link-arrow link-arrow--link" href="articles/engineering-knowledge-intellectual-property.html">Read the article
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+          </li>
+          <li class="lesson">
+            <span class="lesson__num">iii.</span>
+            <h3>Standards are negotiated, not discovered.</h3>
+            <p>Every 3GPP release is a consensus between hundreds of companies, and the negotiation leaves traces: in proposals, in working-group minutes, and eventually in patent claims.</p>
+            <a class="link-arrow link-arrow--link" href="articles/3gpp-standards-intellectual-property.html">Read the article
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+          </li>
+          <li class="lesson">
+            <span class="lesson__num">iv.</span>
+            <h3>Reality and documentation quietly disagree.</h3>
+            <p>Specs describe how a product should behave; firmware and hardware show how it does. A lot of good analysis lives in the space between the two.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= Book ================= -->
+    <div class="band band--lilac">
+      <section class="section chapter" id="book" aria-labelledby="book-title">
+        <p class="chapter__label eyebrow">The book</p>
+        <div class="chapter__body">
+          <h2 class="title" id="book-title">I co-wrote the book on <span class="accent">3GPP.</span></h2>
+          <hr class="rule">
+          <div class="book">
+            <img class="book__cover" src="assets/images/book-cover.jpg" alt="Cover of 3GPP Through The Ages: A Guidebook, by Rahul Vijh, Robin Ghalot, Ajay Sohal, Pawini Gupta and Pranshu Jassal, Copperpod Intellectual Property" width="900" height="985" loading="lazy">
+            <div class="prose">
+              <p class="eyebrow eyebrow--link book__byline">3GPP Through The Ages: A Guidebook</p>
+              <p class="lead">Behind every call, text and video stream sits 3GPP, the quiet powerhouse that standardises the wireless world.</p>
+              <p>The book traces wireless from 1G all the way to the promise of 6G, and explains the decisions behind LTE, 5G NR and the rest in language a curious person can actually follow: how each generation built on the last, what LTE and 5G NR actually changed, the architecture beneath your smartphone, and why standards quietly shape whole industries.</p>
+              <p>It’s written for students, tinkerers, and anyone curious about what powers the connected world, not just the specialists who already speak the language.</p>
+              <div class="actions">
+                <a class="btn" href="https://www.amazon.com/3GPP-Through-Ages-Rahul-Vijh-ebook/dp/B0G67CX9LN/" target="_blank" rel="noopener">
+                  Read it on Amazon
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ================= Writing ================= -->
+    <section class="section" id="writing" aria-labelledby="writing-title">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--link">Writing</p>
+        <a class="link-arrow" href="articles/index.html">All articles
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+      </div>
+      <h2 class="title" id="writing-title">Notes from the reading <span class="accent">desk.</span></h2>
+      <hr class="rule">
+      <div class="prose" style="margin-bottom:40px">
+        <p>Each week I write up something that made me stop and think while researching a technology or a claim.</p>
+      </div>
+
+      <!-- ARTICLE CARDS: newest first. Keep the latest 3 here; the full list lives in articles/index.html -->
+      <ul class="cards">
+        <li class="card">
+          <a href="articles/3gpp-standards-intellectual-property.html">
+            <p class="card__meta">Telecom <span>· 3 min read</span></p>
+            <h3>Inside 3GPP: How Telecom Standards Become Intellectual Property</h3>
+            <p>Every 3GPP release is a negotiated technical consensus between hundreds of companies. Embedded within those specifications are thousands of patent claims.</p>
+            <span class="card__arrow" aria-hidden="true">Read article →</span>
+          </a>
+        </li>
+        <li class="card">
+          <a href="articles/engineering-knowledge-intellectual-property.html">
+            <p class="card__meta">Engineering × Law <span>· 4 min read</span></p>
+            <h3>Why Engineering Knowledge Matters in Intellectual Property</h3>
+            <p>A claim that reads “a processor configured to…” can only be properly evaluated by someone who understands what a processor actually does at the instruction level.</p>
+            <span class="card__arrow" aria-hidden="true">Read article →</span>
+          </a>
+        </li>
+        <li class="card">
+          <a href="articles/patents-reveal-technology-trends.html">
+            <p class="card__meta">Patent strategy <span>· 3 min read</span></p>
+            <h3>Patents Reveal Technology Trends Before Products Launch</h3>
+            <p>Patent filings are technical disclosure that precedes commercialisation by years. The most important signals are often already filed, waiting to be read correctly.</p>
+            <span class="card__arrow" aria-hidden="true">Read article →</span>
+          </a>
+        </li>
+      </ul>
+      <!-- /ARTICLE CARDS -->
+    </section>
+
+    <!-- ================= Engineering (secondary) ================= -->
+    <div class="band band--sky">
+      <section class="section" id="engineering" aria-labelledby="eng-title">
+        <div class="section__head" style="margin-bottom:20px">
+          <p class="eyebrow eyebrow--link">Alongside the IP work</p>
+        </div>
+        <h2 class="title title--small" id="eng-title">On the <span class="accent">bench.</span></h2>
+        <hr class="rule">
+        <div class="prose" style="margin-bottom:40px">
+          <p>Patents are the day job. Engineering is the habit that keeps my reading honest. I’m currently going deeper into embedded systems, and these are a few of the things I’ve built along the way.</p>
+        </div>
+
+        <div class="bench">
+          <article class="bench-card">
+            <img class="bench-card__img" src="assets/images/project-embedded.jpg" alt="Close-up of a character-display module with an I2C backpack wired to an Arduino board" width="1200" height="600" loading="lazy">
+            <div class="bench-card__body">
+              <h3>Embedded systems</h3>
+              <p class="tags">Now · STM32 · C · RTOS · RF / SDR</p>
+              <p>What I’m studying and building now: firmware on STM32, moving from bare-metal code to real-time operating systems, alongside RF and SDR spectrum experiments. I still take apart commercial IoT products to see how firmware and hardware implement what the spec promises.</p>
+            </div>
+          </article>
+
+          <article class="bench-card">
+            <img class="bench-card__img" src="assets/images/project-tdlas.jpg" alt="TDLAS gas-sensing setup: laser source, gas cell on an optical table, and a laptop showing an absorption spectrum" width="1200" height="600" loading="lazy">
+            <div class="bench-card__body">
+              <h3>TDLAS gas-sensing instrument</h3>
+              <p class="tags">CSIO · RedPitaya · embedded firmware · Python · MATLAB</p>
+              <p>A laser absorption spectroscopy rig on a RedPitaya platform, with embedded firmware and a real-time Python pipeline. Acquiring the signal was easy; trusting it wasn’t. Custom baseline correction brought it to 90% measurement accuracy with 75% less noise, and to a working prototype.</p>
+            </div>
+          </article>
+
+          <article class="bench-card">
+            <img class="bench-card__img" src="assets/images/project-spectroplotter.jpg" alt="SpectroPlotter: a compact spectroscope connected to a Raspberry Pi, with a laptop plotting a light spectrum" width="1200" height="600" loading="lazy">
+            <div class="bench-card__body">
+              <h3>SpectroPlotter</h3>
+              <p class="tags">Raspberry Pi · RGB light sensing · Python GUI</p>
+              <p>A low-cost, portable spectroscope built from RGB light sensing and a Raspberry Pi, with a small GUI for offline spectral visualisation. Proof that useful instrumentation doesn’t need an expensive bench, just careful interfacing.</p>
+            </div>
+          </article>
+
+          <article class="bench-card">
+            <img class="bench-card__img" src="assets/images/project-ecg.jpg" alt="3-lead ECG monitor: Arduino and analog front-end board with three electrodes, and a laptop showing three ECG traces" width="1200" height="600" loading="lazy">
+            <div class="bench-card__body">
+              <h3>3-lead ECG monitor</h3>
+              <p class="tags">Arduino · analog front-end · digital filtering · MATLAB</p>
+              <p>A real-time biosignal acquisition system with an analog front-end, digital filtering and MATLAB baseline correction. A lesson in how fragile a physiological signal really is, and how much processing hides behind a clean trace.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <!-- ================= Contact ================= -->
+    <div class="band band--peach">
+      <section class="section chapter" id="contact" aria-labelledby="contact-title">
+        <p class="chapter__label eyebrow">Contact</p>
+        <div class="chapter__body">
+          <h2 class="title" id="contact-title">Let’s <span class="accent">talk.</span></h2>
+          <hr class="rule">
+          <div class="prose">
+            <p class="lead">A claim that needs an engineer’s read, a standard to untangle, or just a good conversation about how things work: I’m always up for interesting people and interesting problems.</p>
+          </div>
+          <div class="actions">
+            <a class="btn" href="mailto:ajaesohal@gmail.com">
+              Start a conversation
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+            <a class="btn btn--line" href="https://calendly.com/ajaesohal/connect-with-me" target="_blank" rel="noopener">Schedule a call</a>
+          </div>
+          <ul class="contact-links">
+            <li><a href="mailto:ajaesohal@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              ajaesohal@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com/in/ajaysohal" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V16M8 7.5v.01M12 16v-3.2a2.3 2.3 0 0 1 4.6 0V16M12 10.5V16"/></svg>
+              LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="index.html" aria-label="Ajay Sohal, home"><span class="brand__mono" aria-hidden="true">AS<span>.</span></span></a>
+    <p>© 2026 Ajay Sohal</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
